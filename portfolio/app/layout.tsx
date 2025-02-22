@@ -23,8 +23,13 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${outfitFont.variable} ${ovoFont.variable}`}>
-      <body className="antialiased">{children}</body>
+    <html
+      lang="en"
+      className={`${outfitFont.variable} ${ovoFont.variable} scroll-smooth`}
+    >
+      <body className="antialiased leading-8 overflow-x-hidden">
+        {children}
+      </body>
     </html>
   );
 }
