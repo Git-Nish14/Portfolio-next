@@ -5,16 +5,13 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div id="about" className="w-full px-[12%] py-16 scroll-mt-20">
-      {/* Introduction Heading */}
+    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo text-gray-600">
         Introduction
       </h4>
       <h2 className="text-center text-5xl font-Ovo font-semibold">About me</h2>
 
-      {/* Main Content Section */}
       <div className="flex flex-col lg:flex-row items-center gap-16 mt-12">
-        {/* Profile Image */}
         <div className="relative w-64 sm:w-80 rounded-3xl overflow-hidden shadow-lg">
           <Image
             src={assets.user_image}
@@ -23,7 +20,6 @@ function About() {
           />
         </div>
 
-        {/* About Me Content */}
         <div className="flex-1">
           <p className="mb-8 max-w-2xl font-Ovo text-gray-700 leading-relaxed">
             I am a skilled full-stack web developer with over a year of
@@ -36,7 +32,6 @@ function About() {
             and efficient solutions.
           </p>
 
-          {/* Information Cards */}
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             {infoList.map(({ icon, title, description }, index) => (
               <li
@@ -60,6 +55,24 @@ function About() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-8 text-gray-700 font-Ovo">
+            <h3 className="text-2xl font-semibold mb-4">More About Me</h3>
+            <p className="leading-relaxed">
+              I have a deep expertise in Python, React.js, Next.js, Express, and
+              various SQL databases. I am constantly improving my skills by
+              learning new frameworks, optimizing performance in web
+              applications, and contributing to open-source projects. I also
+              enjoy writing tech blogs, mentoring budding developers, and
+              working on challenging projects that enhance my problem-solving
+              skills and creativity.
+            </p>
+            <p className="mt-4 leading-relaxed">
+              When I'm not coding, you can find me exploring new places,
+              indulging in photography, or diving into a good book on
+              self-improvement and technology.
+            </p>
+          </div>
         </div>
       </div>
     </div>

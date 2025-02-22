@@ -78,22 +78,22 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "Primepick",
+    description: "E-commerce",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
+    title: "Calendo",
+    description: "A notion calendar clone",
+    bgImage: "/work-2.jpg",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "ExpenseTrac",
+    description: "Expense Tracker",
     bgImage: "/work-3.png",
   },
   {
-    title: "UI/UX designing",
+    title: "Sw Habitation",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
   },
@@ -102,29 +102,24 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
+    title: "Web development",
+    description:
+      "Web development is the process of building, programming, and maintaining websites and web applications. It involves both frontend (what users see and interact with) and backend (server-side logic, databases, and APIs) development to create fully functional and dynamic web experiences.",
+    link: "https://en.wikipedia.org/wiki/Web_development",
   },
   {
     icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Mobile app development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Mobile app development involves creating software applications specifically designed for smartphones, tablets, and other mobile devices. These applications can run on different operating systems like Android and iOS, providing seamless user experiences and functionality tailored to mobile usage.",
+    link: "https://en.wikipedia.org/wiki/Mobile_app_development",
   },
   {
     icon: assets.ui_icon,
     title: "UI/UX design",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
-  },
-  {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
+      "UI/UX design focuses on creating a seamless, intuitive, and engaging user experience by optimizing both the visual design (UI) and user interaction (UX) of a digital product. A well-designed interface enhances usability, accessibility, and overall satisfaction, ensuring users can navigate an application effortlessly.",
+    link: "https://en.wikipedia.org/wiki/User_interface_design",
   },
 ];
 
@@ -133,19 +128,19 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript React Js, Next Js, Python",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "B.Tech in Computer Engineering and M.sc in Computer Science",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 20 projects",
   },
 ];
 
