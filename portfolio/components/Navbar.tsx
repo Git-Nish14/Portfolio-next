@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
-import { assets } from "@/assets/assets";
+import { assets } from "@/app/assets/assets";
 
 interface NavbarProps {
   isDarkMode: boolean;

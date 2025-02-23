@@ -1,5 +1,5 @@
-import { assets, infoList } from "@/assets/assets";
-import { toolsData } from "@/assets/assets";
+import { assets, infoList } from "@/app/assets/assets";
+import { toolsData } from "@/app/assets/assets";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -61,14 +61,14 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-8 max-w-2xl font-Ovo text-gray-700 leading-relaxed dark:text-white">
-            I am a skilled full-stack web developer with over a year of
-            professional experience, specializing in building dynamic and
-            scalable web applications. Throughout my career, I have had the
-            privilege of collaborating with prestigious organizations, playing a
-            key role in their digital transformation and success. My expertise
-            spans the entire development lifecycle, from crafting seamless user
-            interfaces to optimizing backend performance, ensuring high-quality
-            and efficient solutions.
+            I am a skilled full-stack developer with over a year of professional
+            experience, specializing in building dynamic and scalable, web
+            applications and mobile applications. Throughout my career, I have
+            had the privilege of collaborating with prestigious organizations,
+            playing a key role in their digital transformation and success. My
+            expertise spans the entire development lifecycle, from crafting
+            seamless user interfaces to optimizing backend performance, ensuring
+            high-quality and efficient solutions.
           </p>
 
           <motion.ul

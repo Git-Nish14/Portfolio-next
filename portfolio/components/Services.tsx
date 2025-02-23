@@ -1,4 +1,4 @@
-import { assets, serviceData } from "@/assets/assets";
+import { assets, serviceData } from "@/app/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -40,11 +40,11 @@ const Services: React.FC<ServicesProps> = ({ isDarkMode, setIsDarkMode }) => {
         className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
       >
         As a Full Stack Developer, I specialize in building modern, scalable,
-        and high-performance web applications. My expertise covers both frontend
-        and backend development, ensuring a seamless and efficient user
-        experience. Whether you're looking to develop a brand-new application,
-        enhance an existing project, or optimize performance, I can help bring
-        your vision to life.
+        and high-performance web applications and mobile applications. My
+        expertise covers both frontend and backend development, ensuring a
+        seamless and efficient user experience. Whether you're looking to
+        develop a brand-new application, enhance an existing project, or
+        optimize performance, I can help bring your vision to life.
       </motion.p>
 
       <motion.div

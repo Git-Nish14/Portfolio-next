@@ -1,4 +1,4 @@
-import { assets } from "@/assets/assets";
+import { assets } from "@/app/assets/assets";
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";

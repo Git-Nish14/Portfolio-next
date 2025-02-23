@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { assets } from "@/assets/assets";
+import { assets } from "@/app/assets/assets";
 import { motion } from "framer-motion";
 
 interface HeroProps {
@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode, setIsDarkMode }) => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-4xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        Full Stack Web Developer
+        Full Stack Developer
       </motion.h1>
 
       <motion.p
@@ -47,8 +47,9 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode, setIsDarkMode }) => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo text-gray-700 dark:text-white"
       >
-        I am a Full Stack Web Developer from Virginia, USA, with one year of
-        experience at multiple companies like InsureHQ and Codage Habitation.
+        I am a Full Stack Web and mobile Developer from Virginia, USA, with one
+        year of experience at multiple companies like InsureHQ and Codage
+        Habitation.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">

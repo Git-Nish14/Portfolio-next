@@ -1,4 +1,4 @@
-import { assets, workData } from "@/assets/assets";
+import { assets, workData } from "@/app/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -39,12 +39,12 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
       >
-        Welcome to my web development portfolio! Here, you'll find a collection
-        of projects that highlight my expertise in Full Stack Web Development.
-        From dynamic front-end interfaces to powerful back-end systems, I
-        specialize in building scalable, high-performance applications tailored
-        to modern needs. Explore my work and see how I bring ideas to life
-        through code!
+        Welcome to my development portfolio! Here, you'll find a collection of
+        projects that highlight my expertise in Full Stack Web and Mobile
+        Development. From dynamic front-end interfaces to powerful back-end
+        systems, I specialize in building scalable, high-performance
+        applications tailored to modern needs. Explore my work and see how I
+        bring ideas to life through code!
       </motion.p>
 
       <motion.div
