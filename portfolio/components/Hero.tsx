@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { assets } from "@/assets/assets";
 
-function Hero() {
+interface HeroProps {
+  isDarkMode: boolean;
+  setIsDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Hero: React.FC<HeroProps> = ({ isDarkMode, setIsDarkMode }) => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center text-center px-6">
       <Image
@@ -19,7 +24,7 @@ function Hero() {
         Full Stack Web Developer
       </h1>
 
-      <p className="max-w-2xl mx-auto font-Ovo text-gray-700">
+      <p className="max-w-2xl mx-auto font-Ovo text-gray-700 dark:text-white">
         I am a Full Stack Web Developer from Virginia, USA, with one year of
         experience at multiple companies like InsureHQ and Codage Habitation.
       </p>
@@ -27,7 +32,7 @@ function Hero() {
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
         <a
           href="#contact"
-          className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-200 hover:text-black transition duration-300"
+          className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-200 hover:text-black transition duration-300 dark:bg-transparent "
         >
           Contact Me{" "}
           <Image
@@ -39,7 +44,7 @@ function Hero() {
         <a
           href="/Nish Resume.pdf"
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-200 transition duration-300"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-200 transition duration-300 bg-white dark:text-black"
         >
           My Resume{" "}
           <Image
@@ -51,6 +56,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

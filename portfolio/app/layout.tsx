@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${outfitFont.variable} ${ovoFont.variable} scroll-smooth`}
     >
-      <body className="antialiased leading-8 overflow-x-hidden">
+      <body className="antialiased leading-8 overflow-x-hidden dark:bg-darktheme dark:text-white">
         {children}
       </body>
     </html>

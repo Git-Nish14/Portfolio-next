@@ -13,8 +13,6 @@ export default {
         lightHover: "#fcf4ff",
         darkHover: "#2a004a",
         darktheme: "#000000",
-
-        // #101010 or #1A1A1A
       },
 
       fontFamily: {
@@ -30,5 +28,6 @@ export default {
       },
     },
   },
+  darkMode: "selector",
   plugins: [],
 } satisfies Config;
