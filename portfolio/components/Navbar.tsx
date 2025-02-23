@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
-import { assets } from "@/app/assets/assets";
+import { assets } from "@/components/assets";
+
+export const dynamic = "force-dynamic";
 
 interface NavbarProps {
   isDarkMode: boolean;

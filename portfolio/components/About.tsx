@@ -1,8 +1,10 @@
-import { assets, infoList } from "@/app/assets/assets";
-import { toolsData } from "@/app/assets/assets";
+import { assets, infoList } from "@/components/assets";
+import { toolsData } from "@/components/assets";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
+export const dynamic = "force-dynamic";
 
 interface AboutProps {
   isDarkMode: boolean;

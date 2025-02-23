@@ -1,7 +1,9 @@
-import { assets } from "@/app/assets/assets";
+import { assets } from "@/components/assets";
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+
+export const dynamic = "force-dynamic";
 
 interface ContactProps {
   isDarkMode: boolean;

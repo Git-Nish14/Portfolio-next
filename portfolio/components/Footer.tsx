@@ -1,7 +1,9 @@
-import { assets } from "@/app/assets/assets";
+import { assets } from "@/components/assets";
 import Image from "next/image";
 import React from "react";
 import { FaArrowUp } from "react-icons/fa";
+
+export const dynamic = "force-dynamic";
 
 interface FooterProps {
   isDarkMode: boolean;

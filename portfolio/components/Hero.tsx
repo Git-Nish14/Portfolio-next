@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { assets } from "@/app/assets/assets";
+import { assets } from "@/components/assets";
 import { motion } from "framer-motion";
+
+export const dynamic = "force-dynamic";
 
 interface HeroProps {
   isDarkMode: boolean;

@@ -1,7 +1,9 @@
-import { assets, serviceData } from "@/app/assets/assets";
+import { assets, serviceData } from "@/components/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+
+export const dynamic = "force-dynamic";
 
 interface ServicesProps {
   isDarkMode: boolean;

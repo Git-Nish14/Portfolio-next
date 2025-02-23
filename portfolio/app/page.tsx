@@ -8,6 +8,8 @@ import Services from "@/components/Services";
 import Work from "@/components/Work";
 import { useEffect, useState } from "react";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 

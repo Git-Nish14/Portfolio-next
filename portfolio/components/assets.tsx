@@ -1,40 +1,40 @@
-import user_image from "./user-image.png";
-import code_icon from "./code-icon.png";
-import code_icon_dark from "./code-icon-dark.png";
-import edu_icon from "./edu-icon.png";
-import edu_icon_dark from "./edu-icon-dark.png";
-import project_icon from "./project-icon.png";
-import project_icon_dark from "./project-icon-dark.png";
-import vscode from "./vscode.png";
-import firebase from "./firebase.png";
-import figma from "./figma.png";
-import git from "./git.png";
-import mongodb from "./mongodb.png";
-import right_arrow_white from "./right-arrow-white.png";
-import logo from "./logo.png";
-import logo_dark from "./logo_dark.png";
-import mail_icon from "./mail_icon.png";
-import mail_icon_dark from "./mail_icon_dark.png";
-import profile_img from "./profile-img.png";
-import download_icon from "./download-icon.png";
-import hand_icon from "./hand-icon.png";
-import header_bg_color from "./header-bg-color.png";
-import moon_icon from "./moon_icon.png";
-import sun_icon from "./sun_icon.png";
-import arrow_icon from "./arrow-icon.png";
-import arrow_icon_dark from "./arrow-icon-dark.png";
-import menu_black from "./menu-black.png";
-import menu_white from "./menu-white.png";
-import close_black from "./close-black.png";
-import close_white from "./close-white.png";
-import web_icon from "./web-icon.png";
-import mobile_icon from "./mobile-icon.png";
-import ui_icon from "./ui-icon.png";
-import graphics_icon from "./graphics-icon.png";
-import right_arrow from "./right-arrow.png";
-import send_icon from "./send-icon.png";
-import right_arrow_bold from "./right-arrow-bold.png";
-import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import user_image from "@/app/assets/user-image.png";
+import code_icon from "@/app/assets/code-icon.png";
+import code_icon_dark from "@/app/assets/code-icon-dark.png";
+import edu_icon from "@/app/assets/edu-icon.png";
+import edu_icon_dark from "@/app/assets/arrow-icon-dark.png";
+import project_icon from "@/app/assets/project-icon.png";
+import project_icon_dark from "@/app/assets/project-icon-dark.png";
+import vscode from "@/app/assets/vscode.png";
+import firebase from "@/app/assets/firebase.png";
+import figma from "@/app/assets/figma.png";
+import git from "@/app/assets/git.png";
+import mongodb from "@/app/assets/mongodb.png";
+import right_arrow_white from "@/app/assets/right-arrow-white.png";
+import logo from "@/app/assets/logo.png";
+import logo_dark from "@/app/assets/logo_dark.png";
+import mail_icon from "@/app/assets/mail_icon.png";
+import mail_icon_dark from "@/app/assets/mail_icon_dark.png";
+import profile_img from "@/app/assets/profile-img.png";
+import download_icon from "@/app/assets/download-icon.png";
+import hand_icon from "@/app/assets/hand-icon.png";
+import header_bg_color from "@/app/assets/header-bg-color.png";
+import moon_icon from "@/app/assets/moon_icon.png";
+import sun_icon from "@/app/assets/sun_icon.png";
+import arrow_icon from "@/app/assets/arrow-icon.png";
+import arrow_icon_dark from "@/app/assets/arrow-icon-dark.png";
+import menu_black from "@/app/assets/menu-black.png";
+import menu_white from "@/app/assets/menu-white.png";
+import close_black from "@/app/assets/close-black.png";
+import close_white from "@/app/assets/close-white.png";
+import web_icon from "@/app/assets/web-icon.png";
+import mobile_icon from "@/app/assets/mobile-icon.png";
+import ui_icon from "@/app/assets/ui-icon.png";
+import graphics_icon from "@/app/assets/graphics-icon.png";
+import right_arrow from "@/app/assets/right-arrow.png";
+import send_icon from "@/app/assets/send-icon.png";
+import right_arrow_bold from "@/app/assets/right-arrow-bold.png";
+import right_arrow_bold_dark from "@/app/assets/right-arrow-bold-dark.png";
 
 export const assets = {
   user_image,
@@ -80,22 +80,22 @@ export const workData = [
   {
     title: "Primepick",
     description: "E-commerce",
-    bgImage: "/work-1.png",
+    bgImage: "./work-1.png",
   },
   {
     title: "Calendo",
     description: "A notion calendar clone",
-    bgImage: "/work-2.jpg",
+    bgImage: "./work-2.jpg",
   },
   {
     title: "ExpenseTrac",
     description: "Expense Tracker",
-    bgImage: "/work-3.png",
+    bgImage: "./work-3.png",
   },
   {
     title: "Sw Habitation",
     description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    bgImage: "./work-4.png",
   },
 ];
 

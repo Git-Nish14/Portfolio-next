@@ -1,7 +1,9 @@
-import { assets, workData } from "@/app/assets/assets";
+import { assets, workData } from "@/components/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+
+export const dynamic = "force-dynamic";
 
 interface WorkProps {
   isDarkMode: boolean;
