@@ -55,7 +55,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center text-5xl font-Ovo font-semibold"
       >
         Get in Touch
@@ -63,7 +63,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.p
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.7 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
       >
         I'd love to hear from you! Whether you have a question, feedback, or
@@ -73,7 +73,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.form
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         onSubmit={onSubmit}
         className="max-w-2xl mx-auto"
       >
@@ -81,7 +81,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.input
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             type="text"
             placeholder="Enter your name"
             required
@@ -91,7 +91,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.input
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.2 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             type="email"
             placeholder="Enter your email"
             required
@@ -102,7 +102,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode, setIsDarkMode }) => {
         <motion.textarea
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.3 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
           rows={6}
           placeholder="Enter your message"
           required

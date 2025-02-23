@@ -81,21 +81,14 @@ export const workData = [
     title: "Primepick",
     description: "E-commerce",
     bgImage: "./work-1.png",
+    link: "https://primepick-ecommerce.vercel.app/",
   },
-  {
-    title: "Calendo",
-    description: "A notion calendar clone",
-    bgImage: "./work-2.jpg",
-  },
-  {
-    title: "ExpenseTrac",
-    description: "Expense Tracker",
-    bgImage: "./work-3.png",
-  },
+
   {
     title: "Sw Habitation",
-    description: "UI/UX Design",
+    description: "Bugs Solving",
     bgImage: "./work-4.png",
+    link: "https://www.swhabitation.com/",
   },
 ];
 

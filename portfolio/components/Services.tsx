@@ -30,7 +30,7 @@ const Services: React.FC<ServicesProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center text-5xl font-Ovo font-semibold"
       >
         My Services
@@ -38,7 +38,7 @@ const Services: React.FC<ServicesProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.7 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
       >
         As a Full Stack Developer, I specialize in building modern, scalable,
@@ -52,7 +52,7 @@ const Services: React.FC<ServicesProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.9 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
         className="grid grid-cols-auto gap-6 my-10"
       >
         {serviceData.map(({ icon, title, description, link }, index) => (

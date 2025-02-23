@@ -2,6 +2,7 @@ import { assets, workData } from "@/components/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { link } from "fs";
 
 export const dynamic = "force-dynamic";
 
@@ -30,7 +31,7 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center text-5xl font-Ovo font-semibold"
       >
         My latest work
@@ -38,7 +39,7 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.5 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
       >
         Welcome to my development portfolio! Here, you'll find a collection of
@@ -52,7 +53,7 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.9, duration: 0.6 }}
+        transition={{ delay: 0.3, duration: 0.6 }}
         className="grid grid-cols-auto my-10 gap-5 dark:text-black"
       >
         {workData.map((project, index) => (
@@ -69,7 +70,18 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
               <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <Image src={assets.send_icon} alt="send icon" className="w-5" />
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+                >
+                  <Image
+                    src={assets.send_icon}
+                    alt="send icon"
+                    className="w-5"
+                  />
+                </a>
               </div>
             </div>
           </motion.div>
@@ -78,7 +90,7 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.a
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 1.1, duration: 0.5 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
         target="_blank"
         href="https://github.com/Git-Nish14"
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-black hover:text-white duration-500 dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"

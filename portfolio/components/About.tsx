@@ -31,7 +31,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center text-5xl font-Ovo font-semibold"
       >
         About me
@@ -46,7 +46,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
           className="relative w-64 sm:w-80 rounded-3xl overflow-hidden shadow-lg"
         >
           <Image
@@ -59,7 +59,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
           className="flex-1"
         >
           <p className="mb-8 max-w-2xl font-Ovo text-gray-700 leading-relaxed dark:text-white">
@@ -76,7 +76,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
@@ -102,7 +102,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.h4
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5, delay: 1.1 }}
+            transition={{ duration: 1.5, delay: 0.3 }}
             className="my-6 text-gray-700 font-Ovo dark:text-white"
           >
             Tools I use
@@ -110,7 +110,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.2 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             className="flex items-center gap-3 sm:gap-5"
           >
             {toolsData.map((tool, index) => (
@@ -127,7 +127,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.2 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-8 text-gray-700 font-Ovo"
           >
             <h3 className="text-2xl font-semibold mb-4 dark:text-white">
