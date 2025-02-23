@@ -16,38 +16,10 @@ Dynamic UI with Light & Dark Mode 🌗
 Smooth Animations 🎬
 Latest Resume & Projects 📂
 Optimized Performance & SEO-friendly 🔍
-📂 Installation & Setup
-To run this project locally, follow these steps:
-
-Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
-bash
-Copy
-Edit
-cd your-repo-name
-Install dependencies:
-bash
-Copy
-Edit
-npm install
-Run the development server:
-bash
-Copy
-Edit
-npm run dev
-Open http://localhost:3000 in your browser to see the project.
-📸 Screenshots
-Add screenshots of your portfolio website here.
 
 🌟 Connect with Me
-LinkedIn: Your LinkedIn
-GitHub: Your GitHub
-Twitter: Your Twitter
-Website: Techifive
+LinkedIn:https://www.linkedin.com/in/nishpatel14/
+Website:https://portfoliomain-nish-patel.vercel.app/
 📜 License
 This project is open-source and free to use. Feel free to fork and modify it!
 
