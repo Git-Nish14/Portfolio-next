@@ -1,6 +1,7 @@
 import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 interface WorkProps {
   isDarkMode: boolean;
@@ -9,25 +10,53 @@ interface WorkProps {
 
 const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo text-gray-600 dark:text-white">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      id="work"
+      className="w-full px-[12%] py-10 scroll-mt-20"
+    >
+      <motion.h4
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
+        className="text-center mb-2 text-lg font-Ovo text-gray-600 dark:text-white"
+      >
         My portfolio
-      </h4>
-      <h2 className="text-center text-5xl font-Ovo font-semibold">
+      </motion.h4>
+      <motion.h2
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        className="text-center text-5xl font-Ovo font-semibold"
+      >
         My latest work
-      </h2>
-      <p className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo">
+      </motion.h2>
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.7, duration: 0.5 }}
+        className="text-center max-w-full mx-auto mt-5 mb-12 font-Ovo"
+      >
         Welcome to my web development portfolio! Here, you'll find a collection
         of projects that highlight my expertise in Full Stack Web Development.
         From dynamic front-end interfaces to powerful back-end systems, I
         specialize in building scalable, high-performance applications tailored
         to modern needs. Explore my work and see how I bring ideas to life
         through code!
-      </p>
+      </motion.p>
 
-      <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.9, duration: 0.6 }}
+        className="grid grid-cols-auto my-10 gap-5 dark:text-black"
+      >
         {workData.map((project, index) => (
-          <div
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
             key={index}
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
             style={{ backgroundImage: `url(${project.bgImage})` }}
@@ -41,10 +70,13 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
                 <Image src={assets.send_icon} alt="send icon" className="w-5" />
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
-      <a
+      </motion.div>
+      <motion.a
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 1.1, duration: 0.5 }}
         target="_blank"
         href="https://github.com/Git-Nish14"
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-black hover:text-white duration-500 dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
@@ -55,8 +87,8 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
           alt="Right arrow"
           className="w-4"
         />
-      </a>
-    </div>
+      </motion.a>
+    </motion.div>
   );
 };
 
