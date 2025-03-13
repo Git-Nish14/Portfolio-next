@@ -86,9 +86,23 @@ export const workData = [
 
   {
     title: "Sw Habitation",
-    description: "Bugs Solving",
-    bgImage: "./work-4.png",
+    description: "Company Website",
+    bgImage: "./work-2.png",
     link: "https://www.swhabitation.com/",
+  },
+
+  {
+    title: "LegalOne",
+    description: "Lawyer Marketplace",
+    bgImage: "./work-3.png",
+    link: "https://legalone.vercel.app",
+  },
+
+  {
+    title: "Techifive",
+    description: "Tech Website",
+    bgImage: "./work-3.png",
+    link: "https://legalone.vercel.app",
   },
 ];
 
