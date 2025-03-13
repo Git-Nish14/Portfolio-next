@@ -64,13 +64,16 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
         >
           <p className="mb-8 max-w-2xl font-Ovo text-gray-700 leading-relaxed dark:text-white">
             I am a skilled full-stack developer with over a year of professional
-            experience, specializing in building dynamic and scalable, web
-            applications and mobile applications. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            playing a key role in their digital transformation and success. My
-            expertise spans the entire development lifecycle, from crafting
-            seamless user interfaces to optimizing backend performance, ensuring
-            high-quality and efficient solutions.
+            experience, specializing in building dynamic, scalable web and
+            mobile applications. Throughout my career, I have had the privilege
+            of collaborating with prestigious organizations, playing a key role
+            in their digital transformation and success. My expertise spans the
+            entire development lifecycle, from crafting seamless user interfaces
+            to optimizing backend performance. Additionally, I have hands-on
+            experience in deploying, managing, and maintaining applications in
+            production environments, ensuring high availability, security, and
+            performance. I am committed to delivering high-quality, efficient
+            solutions that drive business growth.
           </p>
 
           <motion.ul
@@ -111,7 +114,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex items-center gap-3 sm:gap-5"
+            className="grid grid-cols-3 gap-3 sm:flex sm:items-center sm:gap-5"
           >
             {toolsData.map((tool, index) => (
               <motion.li
@@ -134,11 +137,11 @@ const About: React.FC<AboutProps> = ({ isDarkMode, setIsDarkMode }) => {
               More About Me
             </h3>
             <p className="leading-relaxed dark:text-white">
-              I have a deep expertise in Python, React.js, Next.js, Express, and
-              various SQL databases. I am constantly improving my skills by
-              learning new frameworks, optimizing performance in web
-              applications, and contributing to open-source projects. I also
-              enjoy writing tech blogs, mentoring budding developers, and
+              I have a deep expertise in React.js, Next.js, Express, Nodejs,
+              Python and various SQL databases. I am constantly improving my
+              skills by learning new frameworks, optimizing performance in full
+              stack applications, and contributing to open-source projects. I
+              also enjoy writing tech blogs, mentoring budding developers, and
               working on challenging projects that enhance my problem-solving
               skills and creativity.
             </p>

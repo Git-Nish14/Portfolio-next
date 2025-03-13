@@ -78,7 +78,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a className="font-Ovo" href="#services">
-              Service
+              Services
             </a>
           </li>
           <li>
@@ -149,7 +149,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#services">
-              Service
+              Services
             </a>
           </li>
           <li>

@@ -46,8 +46,11 @@ const Work: React.FC<WorkProps> = ({ isDarkMode, setIsDarkMode }) => {
         projects that highlight my expertise in Full Stack Web and Mobile
         Development. From dynamic front-end interfaces to powerful back-end
         systems, I specialize in building scalable, high-performance
-        applications tailored to modern needs. Explore my work and see how I
-        bring ideas to life through code!
+        applications tailored to modern needs. In addition to development, I
+        have experience in deploying, managing, and maintaining applications in
+        production environments, ensuring reliability, security, and optimal
+        performance. Explore my work and see how I bring ideas to life through
+        code and efficient application management!
       </motion.p>
 
       <motion.div

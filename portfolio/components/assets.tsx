@@ -6,9 +6,6 @@ import edu_icon_dark from "@/app/assets/arrow-icon-dark.png";
 import project_icon from "@/app/assets/project-icon.png";
 import project_icon_dark from "@/app/assets/project-icon-dark.png";
 import vscode from "@/app/assets/vscode.png";
-import firebase from "@/app/assets/firebase.png";
-import figma from "@/app/assets/figma.png";
-import git from "@/app/assets/git.png";
 import mongodb from "@/app/assets/mongodb.png";
 import right_arrow_white from "@/app/assets/right-arrow-white.png";
 import logo from "@/app/assets/logo.png";
@@ -35,6 +32,11 @@ import right_arrow from "@/app/assets/right-arrow.png";
 import send_icon from "@/app/assets/send-icon.png";
 import right_arrow_bold from "@/app/assets/right-arrow-bold.png";
 import right_arrow_bold_dark from "@/app/assets/right-arrow-bold-dark.png";
+import githubicon from "@/app/assets/githubicon.png";
+import darkapollo from "@/app/assets/darkapollo.svg";
+import nextjsicon from "@/app/assets/nextjsicon.png";
+import nodejs from "@/app/assets/nodejs.png";
+import reacticon from "@/app/assets/reacticon.png";
 
 export const assets = {
   user_image,
@@ -45,9 +47,6 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
-  firebase,
-  figma,
-  git,
   mongodb,
   right_arrow_white,
   logo,
@@ -74,6 +73,11 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  githubicon,
+  darkapollo,
+  nextjsicon,
+  nodejs,
+  reacticon,
 };
 
 export const workData = [
@@ -81,7 +85,7 @@ export const workData = [
     title: "Primepick",
     description: "E-commerce",
     bgImage: "./work-1.png",
-    link: "https://primepick-ecommerce.vercel.app/",
+    link: "https://primepick-ecommerce.vercel.app",
   },
 
   {
@@ -101,8 +105,8 @@ export const workData = [
   {
     title: "Techifive",
     description: "Tech Website",
-    bgImage: "./work-3.png",
-    link: "https://legalone.vercel.app",
+    bgImage: "./work-4.png",
+    link: "https://www.techifive.com",
   },
 ];
 
@@ -135,13 +139,14 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js, Python",
+    description: "React Js, Next Js, HTML, CSS, JavaScript, Python",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Engineering and M.sc in Computer Science",
+    description:
+      "B.Tech in Computer Engineering and will pursue Master of Science in Computer Science",
   },
   {
     icon: assets.project_icon,
@@ -152,9 +157,10 @@ export const infoList = [
 ];
 
 export const toolsData = [
+  assets.reacticon,
+  assets.nextjsicon,
+  assets.nodejs,
   assets.vscode,
-  assets.firebase,
   assets.mongodb,
-  assets.figma,
-  assets.git,
+  assets.githubicon,
 ];

@@ -49,9 +49,10 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode, setIsDarkMode }) => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="max-w-2xl mx-auto font-Ovo text-gray-700 dark:text-white"
       >
-        I am a Full Stack Web and mobile Developer from Virginia, USA, with over
-        a year of experience at multiple companies like InsureHQ and Codage
-        Habitation.
+        I am a Full Stack Web and Mobile Developer based in Virginia, USA, with
+        over a year of experience at InsureHQ and Codage Habitation,
+        specializing in building and managing scalable web and mobile
+        applications.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
